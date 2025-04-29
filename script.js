@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
  
     botaoDeAcessibilidade.addEventListener('click', function (){
      botaoDeAcessibilidade.classList.toggle('rotacao-botao');
-     opcoesDeAcessibilidade.classList.toggle('apresenta-lista')
+     opcoesDeAcessibilidade.classList.toggle('apresenta-lista para entrada')
  
      const botaoSelecionado = botaoDeAcessibilidade.getAttribute('aria-expanded') === 'true';
      botaoDeAcessibilidade.setAttribute('aria-expanded', !botaoSelecionado)
@@ -38,6 +38,6 @@ document.addEventListener('DOMContentLoaded', function(){
  })
  
  ScrollReveal().reveal('#inicio', { delay: 500 });
- ScrollReveal().reveal('#tropicalia', { delay: 500 });
- ScrollReveal().reveal('#galeria', { delay: 500 });
- ScrollReveal().reveal('#contato', { delay: 500 });
+ ScrollReveal().reveal('#show', { delay: 500 });
+ ScrollReveal().reveal('#fotos da dupla ', { delay: 500 });
+ ScrollReveal().reveal('#contato para agendamento ', { delay: 500 });
