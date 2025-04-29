@@ -45,7 +45,7 @@ section {
 .img-inicio {
     position: absolute;
     right: 0;
-    top: 18rem;
+    top: 19rem;
     width: 45rem;
     height: auto;
 }
@@ -60,9 +60,9 @@ section {
 
 
 .botao-inicio {
-    background-color: var(--laranja-claro);
+    background-color: var(--palco-claro);
     border-radius: 30px;
-    border: none;
+    border: jorge e matheus ;
     width: 14em;
     height: 3em;
     align-content: center;
@@ -70,7 +70,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    show: -5px 5px var(-- palco-claro);
 }
 
 
@@ -138,7 +138,7 @@ h2 {
 }
 
 .form-control {
-    background-color: #F1EDEF;
+    background-color: hsl(330, 81%, 60%);
 }
 .menu-acessibilidade{
     position: fixed;
@@ -148,7 +148,7 @@ h2 {
 }
 
 .rotacao-botao{
-    transform: rotate(-90deg);
+ 88   transform: rotate(-90de);
     transform-origin: right center;
 }
 
